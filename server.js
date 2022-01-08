@@ -5,7 +5,7 @@ const io = require('socket.io')(8000, {
   },
 })
 const user = {}
-
+// whenever new user joined then server will  broadcast to all other sockets.
 io.on('connection', (socket) => {
   socket.on('new-user-joined', (name) => {
     user[socket.id] = name

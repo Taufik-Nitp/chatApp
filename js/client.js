@@ -3,7 +3,7 @@ const socket = io('http://localhost:8000')
 const form = document.getElementById('send-container')
 const messageInput = document.getElementById('messageInp')
 const messageContainer = document.querySelector('.container')
-const music = new Audio('notification.mp3')
+const music = new Audio('src/notification.mp3')
 // add the message in the message container
 const append = (message, position) => {
   const messageElemnt = document.createElement('div')

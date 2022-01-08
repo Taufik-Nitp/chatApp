@@ -16,7 +16,7 @@
   justify-content: center;
 }
 .container {
-  background: url('bg.jpg') no-repeat center center/cover;
+  background: url('src/bg.jpg') no-repeat center center/cover;
   /* background-color: yellow; */
   height: 80vh;
   width: 500px;
@@ -31,7 +31,6 @@
 }
 #messageInp {
   position: relative;
-
   width: 442px;
 }
 .message {
